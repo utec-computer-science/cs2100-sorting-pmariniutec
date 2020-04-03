@@ -1,8 +1,3 @@
-## Compile (C++17, g++):
-```bash
-make
-```
-
 ## Work
 El archivo /sorting.pdf/ contiene un conjunto de algoritmos de ordenación así como el pseudo-código asociado a cada método. 
 
@@ -45,3 +40,4 @@ Los siguientes métodos:
 
 ## Help!
     * Usemos el canal de Slack!
+
