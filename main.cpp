@@ -1,7 +1,14 @@
-
 #include <iostream>
-using namespace std;
+#include "tests.h"
 
-int main(int, char*[]){
-    return 1;
+int main() {
+  std::cout << "Testing Sorts:" << '\n';
+
+  auto tester = Tests{};
+  tester.executeTests<int>();
+  tester.executeTests<double>();
+  tester.executeTests<float>();
+
+  return EXIT_SUCCESS;
 }
+
